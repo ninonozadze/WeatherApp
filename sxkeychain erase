@@ -1,0 +1,13 @@
+file:/opt/homebrew/etc/gitconfig	credential.helper=osxkeychain
+file:/Users/nino/.gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:/Users/nino/.gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:/Users/nino/.gitconfig	filter.lfs.process=git-lfs filter-process
+file:/Users/nino/.gitconfig	filter.lfs.required=true
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=true
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.ignorecase=true
+file:.git/config	core.precomposeunicode=true
+file:.git/config	remote.origin.url=https://github.com/ninonozadze/WeatherApp
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
